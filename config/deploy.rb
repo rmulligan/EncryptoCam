@@ -23,5 +23,4 @@ role :db,  "50.56.172.226", :primary => true
 set :deploy_to, "/var/rails/everdo"
 set :user, "rmulligan"  # CHANGE THIS LINE TO USE YOUR OCS USERNAME
 set :use_sudo, false
-set :deploy_via, :export
 set :rails_env,      "production"

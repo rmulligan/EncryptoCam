@@ -6,7 +6,7 @@ require "bundler/capistrano"
 set :application, "Everdo"
 set :repository,  "git@bitbucket.org:mulligan/everdo.git"
 set :scm, :git
-set :rvm_ruby_string, '1.9.2@everdo'
+set :rvm_ruby_string, '1.9.3@everdo'
 set :rvm_type, :user
 set :branch, 'master'
 set :normalize_asset_timestamps, false

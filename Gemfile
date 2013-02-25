@@ -39,11 +39,14 @@ group :test, :development do
   gem 'powder' # for controlling development pow server
 end
 
+gem 'devise'
 gem 'evernote_oauth'
 gem 'omniauth-evernote'
 gem 'awesome_print', '1.1.0'
 gem 'jquery-rails'
 gem "ember-rails"
+gem "haml-rails"
+
 # Deploy with Capistrano
 gem 'capistrano'
 gem 'rvm-capistrano'

@@ -24,19 +24,28 @@ group :assets do
 end
 
 group :test, :development do
+  gem 'rb-fsevent'
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem "guard-bundler"
+  gem 'guard-rspec'
+  gem "guard-migrate"
+  gem "debugger"
+  gem "wirble"
   gem 'rspec-nc'
-  gem 'spork-rails', '3.2.0'
-  gem 'factory_girl_rails', '4.1.0'
-  gem 'capybara', '1.1.2'
-  gem 'launchy', '2.1.2'
-  gem 'database_cleaner', '0.8.0'
-  gem 'timecop', '0.5.2'
-  gem "rspec-rails", "~> 2.6"
+  gem 'spork-rails'
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'database_cleaner'
+  gem 'timecop'
+  gem "rspec-rails"
   gem 'simplecov', :require => false
-  gem 'better_errors'
+#  gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
   gem 'powder' # for controlling development pow server
+  gem 'guard-livereload'
 end
 
 gem 'devise'

@@ -14,5 +14,3 @@
 /log/*.log
 /tmp
 
-# Ignore rspec file as it is mac specific
-.rspec

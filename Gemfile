@@ -23,16 +23,20 @@ group :assets do
   gem "twitter-bootstrap-rails"
 end
 
-group :test, :development do
+group :development do
   gem 'rb-fsevent'
   gem 'spork-rails'
   gem 'guard-spork'
   gem "guard-bundler"
   gem 'guard-rspec'
   gem "guard-migrate"
+  gem 'guard-livereload'
+  gem 'rspec-nc'
+end
+
+group :test, :development do
   gem "debugger"
   gem "wirble"
-  gem 'rspec-nc'
   gem 'spork-rails'
   gem 'factory_girl_rails'
   gem 'capybara'
@@ -41,11 +45,10 @@ group :test, :development do
   gem 'timecop'
   gem "rspec-rails"
   gem 'simplecov', :require => false
-#  gem 'better_errors'
+  gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
   gem 'powder' # for controlling development pow server
-  gem 'guard-livereload'
 end
 
 gem 'devise'

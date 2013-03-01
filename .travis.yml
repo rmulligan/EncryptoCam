@@ -1,0 +1,4 @@
+before_script:
+    - mysql -e 'create database everdo-test;'
+    - mysql -e 'create database everdo;'
+    - echo "USE mysql;\nUPDATE user SET password=PASSWORD('M!tten#2') WHERE user='root';\nFLUSH PRIVILEGES;\n" | mysql -u root

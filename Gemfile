@@ -35,6 +35,7 @@ group :development do
     gem "guard-migrate"
     gem 'guard-livereload'
     gem 'rspec-nc'
+    gem "rspec-rails"
   end
 end
 

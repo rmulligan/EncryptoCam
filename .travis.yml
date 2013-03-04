@@ -1,5 +1,6 @@
 before_script:
     - mysql -e 'create database `everdo-test`;'
-    - mysql -e 'create database everdo;'
-    - echo "USE mysql;\nUPDATE user SET password=PASSWORD('M!tten#2') WHERE user='root';\nFLUSH PRIVILEGES;\n" | mysql -u root
+    - echo "USE mysql;\nCREATE USER 'test'@'localhost' IDENTIFIED BY 'foobar';\n" | mysql -u root
+    - echo "USE mysql;\n grant all privileges on `everdo-test`.* to test@localhost identified by 'foobar';\n" | mysql -u root
+    - echo "USE mysql;\nUPDATE user SET password=PASSWORD('foobar') WHERE user='test';\nFLUSH PRIVILEGES;\n" | mysql -u root
     - "rake db:migrate RAILS_ENV=test"

@@ -27,8 +27,10 @@ end
 group :development do
   # Certain Gems are only for Mac and not Jenkins
   if Socket.gethostname.scan(/local/) != []
+    gem 'em-websocket'
     gem 'rb-fsevent'
     gem 'spork-rails'
+    gem 'guard'
     gem 'guard-spork'
     gem "guard-bundler"
     gem 'guard-rspec'

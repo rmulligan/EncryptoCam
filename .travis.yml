@@ -1,4 +1,5 @@
 before_script:
+    - cp config/database.travis.yml config/database.yml
     - mysql -e 'create database note2task_test;'
     - echo "USE mysql;\nCREATE USER 'test'@'localhost' IDENTIFIED BY 'foobar';\n" | mysql -u root
     - echo "grant all privileges on *.* to test@localhost identified by 'foobar';\n" | mysql -u root

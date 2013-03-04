@@ -1,5 +1,6 @@
 before_script:
     - cp config/travis.database.yml config/database.yml
+    - rm .rspec
     - mysql -e 'create database note2task_test;'
     - echo "USE mysql;\nCREATE USER 'test'@'localhost' IDENTIFIED BY 'foobar';\n" | mysql -u root
     - echo "grant all privileges on *.* to test@localhost identified by 'foobar';\n" | mysql -u root

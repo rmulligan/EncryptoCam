@@ -6,7 +6,6 @@
 
 # Ignore bundler config
 /.bundle
-/.rspec
 /config/database.yml
 
 # Ignore the default SQLite database.

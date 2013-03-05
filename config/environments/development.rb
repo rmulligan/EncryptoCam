@@ -36,4 +36,6 @@ Everdo::Application.configure do
   config.assets.debug = true
 
   config.action_mailer.default_url_options = { :host => 'everdo.dev' }
+  # Use dev assets for ember
+  config.ember.variant = :development
 end

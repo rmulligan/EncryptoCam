@@ -17,5 +17,6 @@
 //= require ember-data
 //= require_self
 //= require everdo
-Everdo = Ember.Application.create();
 //= require_tree .
+Everdo = Ember.Application.create();
+

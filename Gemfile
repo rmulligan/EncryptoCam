@@ -58,9 +58,6 @@ group :test, :development do
   gem 'powder' # for controlling development pow server
 end
 
-group :test do
-  gem 'turn','~> 0.8.3'
-end
 
 gem 'devise'
 gem 'evernote_oauth'

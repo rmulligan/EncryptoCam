@@ -21,8 +21,11 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   gem 'jquery-ui-rails', '2.0.2'
   gem 'handlebars_assets', '0.6.6'
-  gem "twitter-bootstrap-rails"
+  gem 'anjlab-bootstrap-rails', '>= 2.1', :require => 'bootstrap-rails'
 end
+
+gem 'active_model_serializers', :github => 'rails-api/active_model_serializers'
+
 
 group :development do
   # Certain Gems are only for Mac and not Jenkins

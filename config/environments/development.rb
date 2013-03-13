@@ -1,4 +1,4 @@
-Everdo::Application.configure do
+Encryptocam::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
@@ -31,11 +31,10 @@ Everdo::Application.configure do
 
   # Do not compress assets
   config.assets.compress = false
-
   # Expands the lines which load the assets
   config.assets.debug = true
 
-  config.action_mailer.default_url_options = { :host => 'everdo.dev' }
+  config.action_mailer.default_url_options = { :host => 'encryptocam.dev' }
   # Use dev assets for ember
   config.ember.variant = :development
 end

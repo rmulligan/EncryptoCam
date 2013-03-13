@@ -20,8 +20,10 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
   gem 'uglifier', '>= 1.0.3'
   gem 'jquery-ui-rails', '2.0.2'
-  gem 'handlebars_assets', '0.6.6'
-  gem 'anjlab-bootstrap-rails', '>= 2.1', :require => 'bootstrap-rails'
+  gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+  gem 'sprockets'
+  gem "barber"
+  gem "twitter-bootstrap-rails"
 end
 
 gem 'active_model_serializers', :github => 'rails-api/active_model_serializers'
@@ -63,16 +65,11 @@ end
 
 
 gem 'devise'
-gem 'evernote_oauth'
-gem 'omniauth-evernote'
 gem 'awesome_print', '1.1.0'
 gem 'jquery-rails'
-gem "ember-rails"
 gem "haml-rails"
+gem "turbolinks"
 
-# Deploy with Capistrano
-gem 'capistrano'
-gem 'rvm-capistrano'
 gem 'rb-readline'
 
 # To use debugger

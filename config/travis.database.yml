@@ -1,5 +1,5 @@
 test:
   adapter: mysql2
-  database: note2task_test
+  database: encryptocam_test
   username: test
   password: 'foobar'

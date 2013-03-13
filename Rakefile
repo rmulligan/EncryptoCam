@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Everdo::Application.load_tasks
+Encryptocam::Application.load_tasks

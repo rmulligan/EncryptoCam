@@ -10,13 +10,11 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
+//= require turbolinks
 //= require jquery
 //= require jquery_ujs
-//= require handlebars
-//= require ember
-//= require ember-data
+//= require twitter/bootstrap
 //= require_self
-//= require everdo
 //= require_tree .
-Everdo = Ember.Application.create();
+
 

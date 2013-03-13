@@ -4,8 +4,8 @@ require "bundler/capistrano"
 # REQUIRED VARIABLES
 # =============================================================================
 
-set :application, "Everdo"
-set :repository,  "git@bitbucket.org:mulligan/everdo.git"
+set :application, "Encryptocam"
+set :repository,  "git@bitbucket.org:mulligan/encr.git"
 set :scm, :git
 set :rvm_ruby_string, '1.9.3@everdo'
 set :rvm_type, :user

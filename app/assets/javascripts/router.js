@@ -1,3 +1,0 @@
-Everdo.Router.map(function() {
-
-});

@@ -1,7 +1,6 @@
-# Note2Task [![Build Status](https://travis-ci.org/rmulligan/Note2Task.png?branch=master)](https://travis-ci.org/rmulligan/Note2Task)
-http://www.note2task.com
+# EncryptoCam [![Build Status](https://travis-ci.org/rmulligan/EncryptoCam.png?branch=master)](https://travis-ci.org/rmulligan/EncryptoCam)
+http://www.encryptocam.com
 
-SPA - Single page application using Ember.js
-
+GEO_QR Video hunt
 
 

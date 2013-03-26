@@ -7,6 +7,32 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= yield %>
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <a class="brand" href="#"><i class="icon-camera-retro"></i> EncryptoCam Mobile</a>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span3">
+      <%= yield %>
+    </div><!--/span-->
+  </div><!--/row-->
+
+</div><!--/.fluid-container-->
+<div class="navbar  navbar-fixed-bottom">
+  <div class="navbar-inner">
+    <div class="container-fluid">
+      <ul class="nav">
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
 </body>
 </html>

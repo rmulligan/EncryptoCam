@@ -10,7 +10,6 @@ group :assets do
   gem 'uglifier'
   gem 'jquery-ui-rails'
   gem "less-rails"
-  gem "twitter-bootstrap-rails"
   gem "ember-rails"
 end
 

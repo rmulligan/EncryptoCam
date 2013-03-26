@@ -35,5 +35,5 @@ Encryptocam::Application.configure do
   config.assets.debug = true
 
   config.action_mailer.default_url_options = { :host => 'encryptocam.dev' }
-
+  config.ember.variant = :development
 end
